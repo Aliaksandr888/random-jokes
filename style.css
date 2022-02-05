@@ -1,0 +1,31 @@
+.main{
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: calc(100% - 40px); */
+    margin: 0 auto;
+    padding: 5px 20px;
+    font-size: 20px;
+    background-color: black;
+}
+.footer_link{
+    display: flex;
+    color: white;
+}
+.footer_link__item{
+    list-style: none;
+}
+.footer_link__item-a{
+    text-decoration: none;
+    color: white;
+}
+.footer_link__item-a:hover{
+    transition: 0.3s;
+    color: #bdae82;
+}
+.footer_rs__item-img{
+    height: 30px;
+}
