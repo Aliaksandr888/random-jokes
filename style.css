@@ -35,16 +35,18 @@ min-height: calc(100vh - 80px);
     cursor: pointer;
     font-size: 20px;
     border: none;
+    transition: 0.3s;
 }
 .btn:hover{
     color: black;
     background-color: rgb(145, 145, 233);
-    transition: 0.3s;
+    
 }
 .jock{
     font-size: 25px;
     transition: 0.3s;
-    min-height: 80px;
+    min-height: 100px;
+    width: 60%;
 
 }
 .footer{
